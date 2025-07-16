@@ -121,3 +121,12 @@ hr{
 .persona2 .derecha p{
     width: 100%;
 }
+
+ul li img{
+    width: 2vw;
+    height: auto;
+}
+
+ul li{
+    font-size: 2.2rem;
+}
