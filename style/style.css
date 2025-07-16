@@ -129,4 +129,21 @@ ul li img{
 
 ul li{
     font-size: 2.2rem;
+    list-style: none;
+}
+
+.dian2{
+    width: 10%;
+}
+
+ul{
+    margin-top: 5vh;
+}
+li{
+    margin-top: 2vh;
+}
+
+.capacidad{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
