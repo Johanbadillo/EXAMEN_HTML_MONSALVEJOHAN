@@ -1,0 +1,123 @@
+@font-face {
+    font-family: letraNueva;
+    src: url(./../fonts/HelveticaNeueItalic.ttfi);
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,165,205,255);
+    display: flex;
+    font-family: letraNueva, sans-serif;
+}
+
+.cuadroBlanco{
+    background-color: white;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    margin-top: 5vh;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50px;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.cuadroBlanco p{
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 2.2rem;
+}
+
+.color{
+    color: #47b6ce;
+}
+
+.persona1{
+    display: flex;
+}
+
+.persona1 .izquierda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+.persona1 .izquierda p{
+    width: 100%;
+}
+
+.persona1 .derecha{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 6vh;
+    margin-left: 1vw;
+}
+
+.persona1 .derecha p{
+    margin: 0;
+}
+
+hr{
+    width: 70%;
+    height: 0;
+    margin-left: 0;
+}
+
+.final{
+    text-align: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.final p{
+    margin: 0;
+}
+
+.final hr{
+    width: 100%;
+    height: 0;
+    margin-left: 0;
+}
+
+.persona2{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.persona2 .izquierda{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    justify-content: center;
+    margin-top: 6vh;
+    margin-left: 4vw;
+
+}
+.persona2 .izquierda p{
+    margin: 0;
+}
+
+.persona2 .derecha{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.persona2 .derecha p{
+    width: 100%;
+}
